@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "keywords":["ostgraphile","graphql","jwt","auth","tokens"],
+  "keywords":["postgraphile","graphql","jwt","auth","tokens","database"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
