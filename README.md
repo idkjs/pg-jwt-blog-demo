@@ -2,6 +2,8 @@
 <p>An older verion of this article can be found here <a href=https://leapgraph.com/graphql-postgresql-postgraphile" rel="noopener" target="_blank">leapgraph.com</a>.</p>
 <p>In previous iterations, <b>PostGraphQL</b> by Caleb Meredith was one of the most popular library for connecting GraphQL APIs and PostgreSQL Databases. <i>This article shows you how to turn your PostgreSQL database schema into an GraphQL API automatically with <a href="https://github.com/graphile/postgraphile" rel="noopener" target="_blank">PostGraphile</a></i>.<p>With <b>PostGraphile just in its beta period - <a href="https://github.com/graphile/postgraphile/releases/tag/v4.4.2-rc.0" rel="noopener" target="_blank">v4.4.2 Release Candidate 0</a></b><p>We will first <b>build a GraphQL API automatically with this library</b>.</header><main><h2>How to Connect GraphQL and PostgreSQL Automatically using PostGraphile and JWT (Example)</h2><p>Let us take an example of a PostgreSQL database for a blog.<p>To keep things simple, our database schema has three tables:<ol><li>Users<li>Posts<li>Comments</ol><p>First make sure Postgres is installed and running locally and then connect to the default db.<pre><code>
 
+
+## https://leapgraph.com/graphql-postgresql-postgraphile
 ## Create Admin User
 
 ```sql
